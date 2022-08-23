@@ -9,5 +9,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 25px;
+    padding-top: 30px;
+    
+}
+nav {
+    display: flex;
+    gap: 35px;
+    padding-left: 20px;
+    
+    
+}
+.botoes{
+    display: flex;
+    gap: 30px;
+    padding-left: 300px;
+
 }
