@@ -5,23 +5,102 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-image: linear-gradient(to right, #3243fa,rgb(18, 128, 230), #26f2fd);
+    font-size: 100%;
+}
 header{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding-top: 30px;
+    
+    
     
 }
 nav {
     display: flex;
     gap: 35px;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-top: 38px;
     
+}
+nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+nav a:hover{
+    text-decoration: underline;
     
 }
 .botoes{
     display: flex;
     gap: 30px;
-    padding-left: 300px;
+    padding-right: 50px;
+    
+    
+}
+.login{
+    border:rgba(0, 0, 0, 0.37);
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #3243FA;
+    transition-duration: 0.5s;
+    color: white;
+}
+.getstarted{
+    background-color: #3243fa;
+    color: white;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.getstarted:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
 
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.principalescrito{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.escritotitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.7em;
+    font-weight: bolder;
+}
+.escritoparagrafo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding-left: 8px;
+    width: 500px;
+}
+.botoes{
+    display: flex;
+    padding-left: 130px;
+    padding-top: 30px;
 }
