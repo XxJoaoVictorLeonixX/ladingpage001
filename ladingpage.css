@@ -51,10 +51,6 @@ nav a:hover{
     border-radius: 5px;
     cursor: pointer;
 }
-.login:hover{
-    background-image: linear-gradient(to right, #B23FFC,#6736D9);
-    color: white;
-}
 .getstarted{
     background-color: #3243fa;
     color: white;
@@ -66,12 +62,6 @@ nav a:hover{
     border-radius: 5px;
     cursor: pointer;
 }
-.getstarted:hover{
-    background-image: linear-gradient(to right, #B23FFC,#6736D9);
-    color:white;
-    
-}
-
 .conteudo{
     display: flex;
     align-items: center;
